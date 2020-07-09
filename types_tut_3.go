@@ -22,6 +22,6 @@ func main() {
 	w1, w2 := "Word 1", "Word 2"
 	fmt.Println(multiple(w1, w2))
 	var a int = 62
-	var b float64 = float64(a)
+	var b float64 = float64(a) //type conversion
 	fmt.Print(b)
 }
